@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="top.ss007.servicedemo.ActMainActivity">
+	<Button
+		android:id="@+id/btnStartService1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+	    android:text="启动服务"/>
+	<Button
+		android:id="@+id/btnStopService1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+	    android:text="停止服务"/>
+
+	<Button
+		android:id="@+id/btnStartServiceB1"
+		android:layout_marginTop="15dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="绑定服务"/>
+	<Button
+		android:id="@+id/btnStopServiceB1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="解绑服务"/>
+	<Button
+		android:id="@+id/btnShowCounter"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="计数"/>
+
+	<Button
+		android:id="@+id/btnOpenForegroudAct"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="15dp"
+		android:text="打开前台服务"/>
+
+	<Button
+		android:id="@+id/btnOpenMessengerAct"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="15dp"
+		android:text="打开信使服务"/>
+</LinearLayout>
