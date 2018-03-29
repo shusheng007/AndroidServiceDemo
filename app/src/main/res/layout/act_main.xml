@@ -48,4 +48,11 @@
 		android:layout_height="wrap_content"
 		android:layout_marginTop="15dp"
 		android:text="打开信使服务"/>
+
+	<Button
+		android:id="@+id/btnOpenAidlAct"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="15dp"
+		android:text="打开AIDL服务"/>
 </LinearLayout>

@@ -45,6 +45,16 @@
 
 		<activity android:name=".ActMessengerClient">
 		</activity>
+
+		<service
+			android:name=".services.AidlService"
+			android:enabled="true"
+			android:exported="true"
+			android:process=":remote">
+		</service>
+
+		<activity android:name=".ActAidlClient">
+		</activity>
 	</application>
 
 </manifest>

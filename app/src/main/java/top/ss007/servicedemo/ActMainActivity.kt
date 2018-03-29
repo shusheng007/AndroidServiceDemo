@@ -32,6 +32,7 @@ class ActMainActivity : AppCompatActivity() {
         btnShowCounter.setOnClickListener(clickListener)
         btnOpenForegroudAct.setOnClickListener(clickListener)
         btnOpenMessengerAct.setOnClickListener(clickListener)
+        btnOpenAidlAct.setOnClickListener(clickListener)
     }
 
     private val clickListener = View.OnClickListener { v ->
@@ -69,6 +70,9 @@ class ActMainActivity : AppCompatActivity() {
             }
             R.id.btnOpenMessengerAct->{
                 startActivity(Intent(this@ActMainActivity,ActMessengerClient::class.java))
+            }
+            R.id.btnOpenAidlAct->{
+                startActivity(Intent(this@ActMainActivity,ActAidlClient::class.java))
             }
             else -> {
 
